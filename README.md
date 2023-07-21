@@ -1,12 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////
 
-Tema 2 - Structuri de Date si Algoritmi - Stavar Laurentiu - 312CC
-
-• Punctaj checker local: - Teste: 80p;
-                         - Valgrind: 20p;
-
-• Durata implementare: ~16h;
-
 • Descriere:
 
 Acest program este o implementare in C a compresiei de imaginii folosid un 
