@@ -18,17 +18,9 @@ The "d" command decompresses the image using the compression tree and saves the 
     -> make clean
 
 • Execution:
-    ./quadtree -c1 in.ppm out.txt
-    ./quadtree -c2 in.ppm out.bin
+    ./quadtree -c1 factor in.ppm out.txt
+    ./quadtree -c2 factor in.ppm out.bin
     ./quadtree -d in.bin out.ppm
 
 • Error message:
     Usage ./quadtree [-c1 factor | -c2 factor | -d] [input_file] [output_file]
-
-• Data structures used:
-    -> Quadtree
-    -> Pixel (containing the color of a pixel with three integer values)
-    -> Queue implemented with a singly linked list
-    -> Singly linked list
-    -> Matrix
-    -> Vectors
